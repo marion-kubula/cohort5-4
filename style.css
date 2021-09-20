@@ -1,0 +1,54 @@
+body{
+    background-color:lightblue ;
+    
+}
+.logo{
+    width: 30px;
+    position: top;
+    padding-right: 350px;
+    padding-top: 5px;
+    font-size: 30px;
+    color: white;
+    text-shadow: 2px 2px  3px black;
+   
+ 
+}
+.main-card{
+    display: flex;
+    justify-content: center;
+    width:40%;
+    height:50%;
+    border-radius: 15px;
+    padding-top:5px;
+    padding-bottom: 5px;
+    margin-left: 400px;
+  margin-top: 200px;
+}
+.card{
+
+    background-color:black;
+     width: 80%;
+    height: 18%; 
+    border-radius: 5px;
+    background-image: url(/tea.jpg);
+    background-repeat: no-repeat;
+    
+   
+    
+}
+.card:hover{
+    box-shadow: 5px 10px 18px white;
+    cursor: pointer;
+}
+.text{
+    text-align: center;
+    color: white;
+    width: 50%;
+   margin-left: 50%;
+   text-shadow: 2px 2px  3px black;
+  font-family: Georgia, 'Times New Roman', Times, serif
+}
+.footer{
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
